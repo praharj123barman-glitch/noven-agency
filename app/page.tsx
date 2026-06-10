@@ -161,16 +161,6 @@ export default function Agency() {
         {/* Glow */}
         <div style={{ position: 'absolute', width: 500, height: 500, borderRadius: '50%', background: 'radial-gradient(circle, rgba(255,77,0,0.08) 0%, transparent 70%)', top: '20%', left: '50%', transform: 'translateX(-50%)', pointerEvents: 'none' }} />
 
-        <div className="animate-up" style={{
-          display: 'inline-flex', alignItems: 'center', gap: 8,
-          background: 'rgba(255,77,0,0.1)', border: '1px solid rgba(255,77,0,0.25)',
-          borderRadius: 100, padding: '6px 16px', marginBottom: 32,
-          fontSize: 12, color: 'var(--accent)', fontWeight: 600, letterSpacing: '0.05em',
-        }}>
-          <span style={{ width: 6, height: 6, borderRadius: '50%', background: 'var(--accent)', display: 'inline-block' }} />
-          NOW ACCEPTING PROJECTS FOR Q1 2025
-        </div>
-
         <h1 className="animate-up-2" style={{
           fontSize: 'clamp(48px, 8vw, 96px)', fontWeight: 800,
           lineHeight: 1.0, letterSpacing: '-3px', maxWidth: 900, marginBottom: 28,
